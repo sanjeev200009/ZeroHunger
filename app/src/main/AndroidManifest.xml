@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ZeroHunger"
         tools:targetApi="31">
         <activity
+            android:name=".signinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ZeroHunger</string>
+    <string name="app_name">ZeroHunger_App</string>
+    <string name="subIntro">Together, we fight hunger and promote sustainable agriculture.\n<b><font color='#3475EE'>Be part of the solution for a better tomorrow.</font></b></string>
+    <string name="subIntro2">Donate meals and help families in need. Join a community of givers and\n<b><font color='#3475EE'>ensure no one goes to bed hungry..</font></b></string>
+    <string name="subIntro3">Your support ensures that food reaches those who need it most. Partner with us to build a world<b><font color='#3475EE'>without hunger...</font></b></string>
+    <string name="subIntro4">See where your donations go and how they change lives. Transparency and trust are<b><font color='#3475EE'>our priorities...</font></b></string>
+    <string name="subIntro5">Enter your Phone number or Email address to sign in and help share food with those in need.<b><font color='#3475EE'> Make a difference today!:)</font></b></string>
 </resources>

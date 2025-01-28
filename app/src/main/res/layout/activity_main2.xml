@@ -6,8 +6,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome0"
-    tools:context=".MainActivity">
+    android:background="@drawable/walkthrough1"
+    tools:context=".MainActivity2">
 
     <!-- Illustration Image -->
     <ImageView
@@ -16,7 +16,7 @@
         android:layout_height="440dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="344dp"
-        android:src="@drawable/illustration"
+        android:src="@drawable/illustrations12"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -25,7 +25,7 @@
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
+        android:text="Make an Impact"
         android:textSize="37sp"
         android:textColor="@color/black"
         android:textAlignment="center"
@@ -45,7 +45,7 @@
         android:layout_height="110dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/font"
-        android:text="@string/subIntro"
+        android:text="@string/subIntro2"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
         android:textSize="20sp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
 
     <Button
-        android:id="@+id/btngetstrt"
+        android:id="@+id/getstrt"
         android:layout_width="375dp"
         android:layout_height="60dp"
         android:layout_marginTop="60dp"

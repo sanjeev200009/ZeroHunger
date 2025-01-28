@@ -6,8 +6,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome0"
-    tools:context=".MainActivity">
+    android:background="@drawable/walkthrough2"
+    tools:context=".MainActivity3">
 
     <!-- Illustration Image -->
     <ImageView
@@ -16,7 +16,7 @@
         android:layout_height="440dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="344dp"
-        android:src="@drawable/illustration"
+        android:src="@drawable/illustrationsnew"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -25,7 +25,7 @@
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
+        android:text="Be the Change"
         android:textSize="37sp"
         android:textColor="@color/black"
         android:textAlignment="center"
@@ -38,6 +38,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.636" />
 
+    <!-- Sub Intro Text -->
+
+    <!-- Login Button -->
 
     <TextView
         android:id="@+id/subIntro"
@@ -45,7 +48,7 @@
         android:layout_height="110dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/font"
-        android:text="@string/subIntro"
+        android:text="@string/subIntro3"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
         android:textSize="20sp"
@@ -54,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
 
     <Button
-        android:id="@+id/btngetstrt"
+        android:id="@+id/btn_strt"
         android:layout_width="375dp"
         android:layout_height="60dp"
         android:layout_marginTop="60dp"
