@@ -13,6 +13,19 @@
         android:theme="@style/Theme.ZeroHunger"
         tools:targetApi="31">
         <activity
+            android:name=".Activityhome"
+            android:exported="true" />
+
+        <activity
+            android:name=".locationActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".signupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassActivity"
+            android:exported="true" />
+        <activity
             android:name=".signinActivity"
             android:exported="true" />
         <activity

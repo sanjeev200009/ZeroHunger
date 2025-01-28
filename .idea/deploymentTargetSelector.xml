@@ -2,19 +2,19 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="MainActivity2">
+      <SelectionState runConfigName="signupActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity3 (2)">
+      <SelectionState runConfigName="locationActivity5">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity4">
+      <SelectionState runConfigName="locationActivity5 (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="signinActivity">
+      <SelectionState runConfigName="locationActivity5 (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity">
+      <SelectionState runConfigName="Activityhome">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
