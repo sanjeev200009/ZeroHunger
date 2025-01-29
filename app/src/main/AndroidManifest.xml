@@ -13,9 +13,11 @@
         android:theme="@style/Theme.ZeroHunger"
         tools:targetApi="31">
         <activity
+            android:name=".featuredpartnersActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activityhome"
             android:exported="true" />
-
         <activity
             android:name=".locationActivity5"
             android:exported="true" />
