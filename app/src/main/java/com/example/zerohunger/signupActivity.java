@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -32,6 +33,16 @@ public class signupActivity extends AppCompatActivity {
         roleSpinner = findViewById(R.id.roleSpinner);
         signupButton = findViewById(R.id.btn_strt);
 
+
+        ImageView buttonNavigate3 = findViewById(R.id.back_arrow);
+        buttonNavigate3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(signupActivity.this, signinActivity.class);
+                startActivity(intent);
+            }
+        });
+
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 this,
                 R.array.roles_array,
@@ -54,6 +65,8 @@ public class signupActivity extends AppCompatActivity {
 
         signupButton.setOnClickListener(view -> registerUser());
     }
+
+
 
     private void registerUser() {
         String name = fullName.getText().toString().trim();

@@ -11,7 +11,7 @@
     <string name="subIntro9">By Signing up you agree to our Terms<b><font color='#3475EE'>Conditions  &amp;  Privacy Policy.</font></b></string>
     <string name="subIntro10">Please enter your location or allow access to your location to find food<b><font color='#3475EE'>donation centers near you..</font></b></string>
     <string name="subIntro11"><b><font color='#3475EE'>Use current location</font></b></string>
-    <string name="subIntro12"><b>Feature&#10;Product</b></string>
+    <string name="subIntro12"><b>Available Donations</b></string>
 
 
     <string-array name="roles_array">
