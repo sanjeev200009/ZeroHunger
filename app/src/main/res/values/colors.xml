@@ -9,5 +9,6 @@
     <color name="lighttextcolor">#868686</color>
     <color name="inputbac">#FBFBFB</color>
     <color name="discolor">#868686</color>
+    <color name="darkGray">#A9A9A9</color>
 
 </resources>
