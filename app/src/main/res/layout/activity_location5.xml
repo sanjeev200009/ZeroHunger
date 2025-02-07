@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/back_arrow"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="44dp"
         android:src="@drawable/close"
@@ -96,14 +96,14 @@
 
     <EditText
         android:id="@+id/editTextpassword"
-        android:layout_width="405dp"
-        android:layout_height="46dp"
+        android:layout_width="418dp"
+        android:layout_height="58dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter a new address"
-        android:textAlignment="center"
         android:inputType="textEmailAddress"
         android:padding="10dp"
+        android:textAlignment="center"
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

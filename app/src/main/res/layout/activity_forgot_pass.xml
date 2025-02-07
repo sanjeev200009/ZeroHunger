@@ -70,15 +70,15 @@
         android:textColor="@color/lighttextcolor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256" />
+        app:layout_constraintVertical_bias="0.255" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_width="372dp"
+        android:layout_height="61dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your email address"
@@ -87,10 +87,9 @@
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.304" />
 
     <Button
         android:id="@+id/btnForgot"

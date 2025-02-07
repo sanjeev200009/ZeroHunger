@@ -9,7 +9,7 @@
     android:background="@drawable/walkthrough1"
     tools:context=".MainActivity2">
 
-    <!-- Illustration Image -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="291dp"
@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Welcome Text -->
+
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
@@ -69,6 +69,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subIntro" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="57dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/font"
+        android:text="Skip"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

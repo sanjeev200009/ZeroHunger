@@ -9,7 +9,7 @@
     android:background="@drawable/welcome0"
     tools:context=".MainActivity">
 
-    <!-- Illustration Image -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="291dp"
@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Welcome Text -->
+
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"

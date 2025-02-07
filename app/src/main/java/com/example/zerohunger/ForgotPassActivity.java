@@ -27,7 +27,7 @@ public class ForgotPassActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        // Find the button and apply background tint
+
         Button button = findViewById(R.id.btnForgot);
         button.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.darkblue)));
 

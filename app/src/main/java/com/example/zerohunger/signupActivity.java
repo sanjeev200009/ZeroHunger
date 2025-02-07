@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,6 +43,18 @@ public class signupActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        TextView terms = findViewById(R.id.terms);
+        terms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(signupActivity.this, Activity_termscondition.class);
+                startActivity(intent);
+            }
+        });
+
+
+
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 this,

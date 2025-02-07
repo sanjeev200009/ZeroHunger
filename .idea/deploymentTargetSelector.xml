@@ -8,13 +8,13 @@
       <SelectionState runConfigName="Activityhome (3)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="signinActivity">
+      <SelectionState runConfigName="featuredpartnersActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="signinActivity (1)">
+      <SelectionState runConfigName="MainActivity2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Activityhome">
+      <SelectionState runConfigName="Activity_termscondition">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

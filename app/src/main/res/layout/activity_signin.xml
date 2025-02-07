@@ -78,12 +78,12 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your email address"
         android:inputType="textEmailAddress"
-        android:background="@drawable/rounded_edittext"
         android:padding="10dp"
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -121,8 +121,8 @@
 
     <EditText
         android:id="@+id/editTextpassword"
-        android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your Password"
@@ -236,7 +236,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.829">
 
-        <!-- Facebook Button -->
+
         <Button
             android:id="@+id/btnFacebook"
             android:layout_width="match_parent"
@@ -252,7 +252,6 @@
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
-        <!-- Google Button -->
         <Button
             android:id="@+id/btnGoogle"
             android:layout_width="match_parent"

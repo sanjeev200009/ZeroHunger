@@ -12,7 +12,39 @@
     <string name="subIntro10">Please enter your location or allow access to your location to find food<b><font color='#3475EE'>donation centers near you..</font></b></string>
     <string name="subIntro11"><b><font color='#3475EE'>Use current location</font></b></string>
     <string name="subIntro12"><b>Available Donations</b></string>
+    <string name="subIntro13">📍 100+ \n<b>Cities</b></string>
 
+    <string name="terms_title">Terms &amp; Conditions</string>
+    <string name="terms_last_updated">Last Updated: February 7, 2025</string>
+
+    <string name="terms_intro">Welcome to Zero Hunger! These Terms &amp; Conditions govern your use of our app and services. By accessing or using the app, you agree to these terms.</string>
+
+    <string name="terms_user_eligibility_title">1. User Eligibility</string>
+    <string name="terms_user_eligibility">- You must be at least 18 years old to use this app.\n- If you are under 18, parental supervision is required.</string>
+
+    <string name="terms_account_registration_title">2. Account Registration</string>
+    <string name="terms_account_registration">- You must provide accurate information during signup.\n- You are responsible for maintaining your account security.</string>
+
+    <string name="terms_donations_title">3. Donations &amp; Food Distribution</string>
+    <string name="terms_donations">- Donations must comply with food safety standards.\n- Zero Hunger does not guarantee the quality or condition of donated food.</string>
+
+    <string name="terms_prohibited_activities_title">4. Prohibited Activities</string>
+    <string name="terms_prohibited_activities">You agree not to:\n- Misuse the app for fraudulent activities.\n- Post false or misleading information.\n- Violate any laws while using this service.</string>
+
+    <string name="terms_privacy_policy_title">5. Privacy Policy</string>
+    <string name="terms_privacy_policy">- We collect and store user data as per our Privacy Policy.\n- Your personal data will not be shared without consent.</string>
+
+    <string name="terms_liability_disclaimer_title">6. Liability Disclaimer</string>
+    <string name="terms_liability_disclaimer">- Zero Hunger is not liable for any food-related issues.\n- We do not assume responsibility for third-party interactions.</string>
+
+    <string name="terms_account_termination_title">7. Termination of Account</string>
+    <string name="terms_account_termination">- We may suspend or terminate your account for violating these terms.\n- You may delete your account at any time.</string>
+
+    <string name="terms_changes_title">8. Changes to Terms</string>
+    <string name="terms_changes">- We reserve the right to update these terms.\n- Changes will be notified via the app.</string>
+
+    <string name="terms_contact_title">9. Contact Us</string>
+    <string name="terms_contact">For any questions, reach out at support@zerohunger.com</string>
 
     <string-array name="roles_array">
         <item>SELECT YOUR ROLE</item>
@@ -33,42 +65,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
+
 
 </resources>
 

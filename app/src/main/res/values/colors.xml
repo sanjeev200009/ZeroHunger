@@ -10,5 +10,6 @@
     <color name="inputbac">#FBFBFB</color>
     <color name="discolor">#868686</color>
     <color name="darkGray">#A9A9A9</color>
+    <color name="red">#FF0000</color>
 
 </resources>

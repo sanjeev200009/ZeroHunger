@@ -82,7 +82,7 @@ public class signinActivity extends AppCompatActivity {
         // Simulate user authentication (Replace with Firebase or Database authentication)
         if (email.equals("test@example.com") && password.equals("123456")) {
             Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(signinActivity.this, MainActivity.class));
+            startActivity(new Intent(signinActivity.this, locationActivity5.class));
             finish();
         } else {
             Toast.makeText(this, "Invalid Email or Password", Toast.LENGTH_SHORT).show();

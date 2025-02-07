@@ -10,7 +10,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class Activityhome extends AppCompatActivity {
 
@@ -45,7 +45,7 @@ public class Activityhome extends AppCompatActivity {
             int currentItem = viewPager.getCurrentItem();
             int nextItem = (currentItem + 1) % 3;
             viewPager.setCurrentItem(nextItem, true);
-            sliderHandler.postDelayed(this, 3000);
+            sliderHandler.postDelayed(this, 4000);
         }
     };
 

@@ -243,7 +243,7 @@
         app:layout_constraintVertical_bias="0.649" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/terms"
         android:layout_width="346dp"
         android:layout_height="40dp"
         android:fontFamily="@font/font"
