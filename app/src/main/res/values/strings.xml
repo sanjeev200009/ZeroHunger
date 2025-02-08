@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ZeroHunger_App</string>
+    <string name="subIntro">Together, we fight hunger and promote sustainable agriculture.\n<b><font color='#3475EE'>Be part of the solution for a better tomorrow.</font></b></string>
+    <string name="subIntro2">Donate meals and help families in need. Join a community of givers and\n<b><font color='#3475EE'>ensure no one goes to bed hungry..</font></b></string>
+    <string name="subIntro3">Your support ensures that food reaches those who need it most. Partner with us to build a world<b><font color='#3475EE'>without hunger...</font></b></string>
+    <string name="subIntro4">See where your donations go and how they change lives. Transparency and trust are<b><font color='#3475EE'>our priorities...</font></b></string>
+    <string name="subIntro5">Enter your Phone number or Email address to sign in and help share food with those in need.<b><font color='#3475EE'> Make a difference today!:)</font></b></string>
+    <string name="subIntro6">.<b><font color='#3475EE'>Create new account</font></b></string>
+    <string name="subIntro7">Enter your email address and we will send you a reset instructions.<b><font color='#3475EE'>a reset instructions</font></b></string>
+    <string name="subIntro8">Enter your Name, Email and Password for sign up.<b><font color='#3475EE'>Already have account?</font></b></string>
+    <string name="subIntro9">By Signing up you agree to our Terms<b><font color='#3475EE'>Conditions  &amp;  Privacy Policy.</font></b></string>
+    <string name="subIntro10">Please enter your location or allow access to your location to find food<b><font color='#3475EE'>donation centers near you..</font></b></string>
+    <string name="subIntro11"><b><font color='#3475EE'>Use current location</font></b></string>
+    <string name="subIntro12"><b>Available Donations</b></string>
+    <string name="subIntro13">📍 100+ \n<b>Cities</b></string>
+
+    <string name="terms_title">Terms &amp; Conditions</string>
+    <string name="terms_last_updated">Last Updated: February 7, 2025</string>
+
+    <string name="terms_intro">Welcome to Zero Hunger! These Terms &amp; Conditions govern your use of our app and services. By accessing or using the app, you agree to these terms.</string>
+
+    <string name="terms_user_eligibility_title">1. User Eligibility</string>
+    <string name="terms_user_eligibility">- You must be at least 18 years old to use this app.\n- If you are under 18, parental supervision is required.</string>
+
+    <string name="terms_account_registration_title">2. Account Registration</string>
+    <string name="terms_account_registration">- You must provide accurate information during signup.\n- You are responsible for maintaining your account security.</string>
+
+    <string name="terms_donations_title">3. Donations &amp; Food Distribution</string>
+    <string name="terms_donations">- Donations must comply with food safety standards.\n- Zero Hunger does not guarantee the quality or condition of donated food.</string>
+
+    <string name="terms_prohibited_activities_title">4. Prohibited Activities</string>
+    <string name="terms_prohibited_activities">You agree not to:\n- Misuse the app for fraudulent activities.\n- Post false or misleading information.\n- Violate any laws while using this service.</string>
+
+    <string name="terms_privacy_policy_title">5. Privacy Policy</string>
+    <string name="terms_privacy_policy">- We collect and store user data as per our Privacy Policy.\n- Your personal data will not be shared without consent.</string>
+
+    <string name="terms_liability_disclaimer_title">6. Liability Disclaimer</string>
+    <string name="terms_liability_disclaimer">- Zero Hunger is not liable for any food-related issues.\n- We do not assume responsibility for third-party interactions.</string>
+
+    <string name="terms_account_termination_title">7. Termination of Account</string>
+    <string name="terms_account_termination">- We may suspend or terminate your account for violating these terms.\n- You may delete your account at any time.</string>
+
+    <string name="terms_changes_title">8. Changes to Terms</string>
+    <string name="terms_changes">- We reserve the right to update these terms.\n- Changes will be notified via the app.</string>
+
+    <string name="terms_contact_title">9. Contact Us</string>
+    <string name="terms_contact">For any questions, reach out at support@zerohunger.com</string>
+
+    <string-array name="roles_array">
+        <item>SELECT YOUR ROLE</item>
+        <item>Donor</item>
+        <item>Person Seeking Free Food</item>
+        <item>Admin (Restaurant)</item>
+    </string-array>
+
+
+    <string name="image_description">image_description</string>
+
+
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>
+
