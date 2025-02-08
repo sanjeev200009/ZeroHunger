@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/roback"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AgriTipsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/back" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/font"
+                android:text="agriculture Tips"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif"
+                android:text="See All"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <!-- ViewPager (Image Slider) -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="428dp"
+            android:layout_height="278dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/agriTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Essential Agriculture Tips"
+            android:fontFamily="@font/font"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Categories -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_tip" />
+
+            <TextView
+                android:id="@+id/tipOfDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:layout_marginStart="10dp"
+                android:text="Tip: Use compost to improve soil health naturally."
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/agriCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:fontFamily="@font/font2"
+            android:paddingBottom="5dp"
+            android:text="Organic Farming • Soil Health • Smart Irrigation"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/agriRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/font2"
+            android:paddingBottom="10dp"
+            android:text="4.8 ⭐ 500+ Readers"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <!-- 🏆 Tip of the Day -->
+
+        <!-- 📖 Featured Articles -->
+        <TextView
+            android:id="@+id/featuredArticlesTitle"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="🌿 Featured Agriculture Articles"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/featuredArticlesRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/thumb" />
+
+        <TextView
+            android:id="@+id/videoGuideTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="📹 Learn Smart Farming Techniques"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black" />
+
+        <!-- 💬 User Feedback -->
+        <ImageView
+            android:id="@+id/videoGuide"
+            android:src="@drawable/video"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/feedbackTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:text="💬 Share Your Experience"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/feedbackInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/font2"
+            android:hint="Write your feedback here..."
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/submitFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="SUBMIT FEEDBACK"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- 🔗 Social Media Share -->
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font2"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="SHARE TIPS"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>
