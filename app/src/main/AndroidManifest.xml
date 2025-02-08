@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ZeroHunger"
         tools:targetApi="31">
         <activity
+            android:name=".MydonationActivity"
+            android:exported="true" />
+        <activity
             android:name=".AgriTipsActivity"
             android:exported="true" />
         <activity
