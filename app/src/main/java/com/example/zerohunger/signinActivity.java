@@ -48,9 +48,6 @@ public class signinActivity extends AppCompatActivity {
             startActivity(new Intent(signinActivity.this, ForgotPassActivity.class));
         });
 
-        // Back button navigation
-
-
 
         ImageView backButton = findViewById(R.id.back_arrow);
         backButton.setOnClickListener(View -> {

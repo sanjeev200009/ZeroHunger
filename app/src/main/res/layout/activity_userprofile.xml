@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userprofileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="448dp"
+                        android:layout_height="1000dp"
+                        android:contentDescription="TODO"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout1"
+                            android:layout_width="match_parent"
+                            android:layout_height="330dp"
+                            android:background="@drawable/top_background"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:contentDescription="@string/User_image"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/profile2" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="13dp"
+                            android:text="@string/user_name"
+                            android:fontFamily="@font/font2"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView"
+                            app:layout_constraintStart_toStartOf="@+id/imageView"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView"
+                            tools:ignore="VisualLintOverlap" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="TODO"
+                            android:fontFamily="@font/font2"
+                            android:importantForAccessibility="no"
+                            android:text="@string/user_gmail_com"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textView"
+                            app:layout_constraintStart_toStartOf="@+id/textView"
+                            app:layout_constraintTop_toBottomOf="@+id/textView"
+                            tools:ignore="VisualLintOverlap" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="414dp"
+                            android:layout_height="469dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/circles" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout"
+                            android:layout_width="402dp"
+                            android:layout_height="397dp"
+                            android:layout_marginStart="23dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginEnd="23dp"
+                            android:background="@drawable/white_background"
+                            android:elevation="3dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView2"
+                            app:layout_constraintVertical_bias="0.0">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="0.33333333333"
+                                    android:background="@drawable/grey_background"
+                                    android:elevation="5dp"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_margin="12dp"
+                                        tools:ignore="TooDeepLayout">
+
+                                        <ImageView
+                                            android:id="@+id/imag"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/circle_background"
+                                            android:contentDescription="@string/Donation_img"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:srcCompat="@drawable/icons8_donation_80"
+                                            tools:ignore="ImageContrastCheck" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="8dp"
+                                        android:text="@string/donation"
+                                        android:fontFamily="@font/font2"
+                                        android:textAlignment="center"
+                                        android:textColor="#616161"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold"
+                                        tools:ignore="DuplicateIds" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="0.33333333333"
+                                    android:background="@drawable/grey_background"
+                                    android:elevation="5dp"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_margin="12dp"
+                                        android:contentDescription="TODO"
+                                        android:importantForAccessibility="no">
+
+                                        <ImageView
+                                            android:id="@+id/imageView4"
+                                            android:layout_width="54dp"
+                                            android:layout_height="54dp"
+                                            android:background="@drawable/circle_background"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:srcCompat="@drawable/settings"
+                                            tools:ignore="DuplicateIds" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView43434"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="8dp"
+                                        android:fontFamily="@font/font2"
+                                        android:text="@string/settings_"
+                                        android:textAlignment="center"
+                                        android:textColor="#616161"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold"
+                                        tools:ignore="DuplicateIds" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="0.33333333333"
+                                    android:background="@drawable/grey_background"
+                                    android:elevation="5dp"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_margin="12dp">
+
+                                        <ImageView
+                                            android:id="@+id/imageView49"
+                                            android:layout_width="61dp"
+                                            android:layout_height="58dp"
+                                            android:background="@drawable/circle_background"
+                                            android:contentDescription="TODO"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:srcCompat="@drawable/notification"
+                                            tools:ignore="DuplicateIds" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView42"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="8dp"
+                                        android:text="@string/notification"
+                                        android:fontFamily="@font/font2"
+                                        android:textAlignment="center"
+                                        android:textColor="#616161"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold"
+                                        tools:ignore="DuplicateIds" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:text="@string/password"
+                                    android:textSize="18sp"
+                                    tools:ignore="DuplicateIds" />
+
+                                <TextView
+                                    android:id="@+id/textView211"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:text="@string/Change_passwoed"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="#1976D2"
+                                    android:textSize="15sp"
+                                    tools:ignore="DuplicateIds" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view3"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="#090909"
+                                tools:layout_marginBottom="6dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:text="@string/mobile"
+                                    android:textSize="18sp"
+                                    tools:ignore="DuplicateIds" />
+
+                                <TextView
+                                    android:id="@+id/textVie"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:hint="@string/Mobile"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="#0096ff"
+                                    android:textSize="15sp"
+                                    tools:ignore="DuplicateIds" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view6"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="#090909"
+                                tools:layout_marginBottom="6dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/address"
+                                    android:fontFamily="@font/font2"
+                                    android:textSize="18sp"
+                                    tools:ignore="DuplicateIds" />
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:hint="@string/_1st_street_colombo"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="#0096ff"
+                                    android:textSize="15sp"
+                                    tools:ignore="DuplicateIds" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view7"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="#090909"
+                                tools:layout_marginBottom="6dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView111"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/font2"
+                                    android:text="@string/email"
+                                    android:textSize="18sp"
+                                    tools:ignore="DuplicateIds" />
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:hint="@string/abc_gmail_com"
+                                    android:fontFamily="@font/font2"
+                                    android:textAlignment="viewEnd"
+                                    android:textColor="#0096ff"
+                                    android:textSize="15sp"
+                                    tools:ignore="DuplicateIds" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="312dp"
+                            android:layout_height="54dp"
+                            android:layout_marginStart="167dp"
+                            android:layout_marginTop="27dp"
+                            android:layout_marginEnd="163dp"
+                            android:layout_marginBottom="19dp"
+                            android:background="@drawable/button_background"
+                            android:fontFamily="@font/font2"
+                            android:text="@string/edit_details"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.525"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                            app:layout_constraintVertical_bias="0.298" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
