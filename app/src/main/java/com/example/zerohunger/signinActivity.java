@@ -1,5 +1,6 @@
 package com.example.zerohunger;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
@@ -78,11 +79,28 @@ public class signinActivity extends AppCompatActivity {
 
         // Simulate user authentication (Replace with Firebase or Database authentication)
         if (email.equals("test@example.com") && password.equals("123456")) {
-            Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(signinActivity.this, locationActivity5.class));
-            finish();
+            showSuccessDialog();
         } else {
             Toast.makeText(this, "Invalid Email or Password", Toast.LENGTH_SHORT).show();
         }
+    }
+    private void showSuccessDialog() {
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.dialog_success);
+        dialog.setCancelable(false);
+
+        TextView successText = dialog.findViewById(R.id.success_text);
+        Button btnDone = dialog.findViewById(R.id.btn_done);
+
+        successText.setText("Login Successful! Thank you for Your Login");
+
+        btnDone.setOnClickListener(v -> {
+            dialog.dismiss();
+            // Navigate to locationActivity5 after closing dialog
+            startActivity(new Intent(signinActivity.this, locationActivity5.class));
+            finish();
+        });
+
+        dialog.show();
     }
 }

@@ -12,37 +12,37 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="291dp"
-        android:layout_height="440dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginBottom="344dp"
+        android:layout_width="277dp"
+        android:layout_height="364dp"
         android:src="@drawable/illustration"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
 
     <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textSize="37sp"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:textStyle="bold"
         android:fontFamily="@font/font"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="37sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636" />
-
+        app:layout_constraintVertical_bias="0.686" />
 
     <TextView
         android:id="@+id/subIntro"
-        android:layout_width="433dp"
-        android:layout_height="110dp"
+        android:layout_width="370dp"
+        android:layout_height="101dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/font"
         android:text="@string/subIntro"
@@ -55,9 +55,9 @@
 
     <Button
         android:id="@+id/btngetstrt"
-        android:layout_width="375dp"
+        android:layout_width="337dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#2085D7"
         android:fontFamily="@font/font"
         android:gravity="center"
@@ -67,6 +67,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subIntro" />
 

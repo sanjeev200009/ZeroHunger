@@ -1,8 +1,11 @@
 package com.example.zerohunger;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +36,17 @@ public class AgriTipsActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         startAutoSlide();
 
+        ImageView buttonNavigate2 = findViewById(R.id.back);
+        buttonNavigate2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AgriTipsActivity.this, Activityhome.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
 
     private void startAutoSlide() {
         sliderHandler.postDelayed(sliderRunnable, 3000);

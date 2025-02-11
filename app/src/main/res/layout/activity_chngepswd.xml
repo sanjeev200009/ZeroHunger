@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@drawable/roback"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".chngepswdActivity">
@@ -48,35 +49,38 @@
         app:layout_constraintVertical_bias="0.601" />
 
     <Button
-        android:id="@+id/button232"
-        android:layout_width="177dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_background"
-        android:text="@string/confirm_changes"
-        android:textColor="#FDFDFD"
+        android:id="@+id/button"
+        android:layout_width="312dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/font2"
+        android:text="Confirm Changes"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/view21"
+        app:layout_constraintVertical_bias="0.298" />
 
     <ImageButton
         android:id="@+id/imageButton1023"
-        android:layout_width="265dp"
-        android:layout_height="190dp"
+        android:layout_width="162dp"
+        android:layout_height="199dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="#Ffffff"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112"
+        app:layout_constraintVertical_bias="0.121"
         app:srcCompat="@drawable/logo"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -154,8 +158,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:contentDescription="@string/todo1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -3,6 +3,8 @@ package com.example.zerohunger;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -22,6 +24,15 @@ public class Activity_termscondition extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        ImageView buttonNavigate2 = findViewById(R.id.back);
+        buttonNavigate2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity_termscondition.this, signupActivity.class);
+                startActivity(intent);
+            }
         });
 
         TextView ACC = findViewById(R.id.btnAccept);

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -51,6 +52,14 @@ public class CommunityActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(v -> {
             if (validateInputs()) {
                 showSuccessDialog();
+            }
+        });
+        ImageView buttonNavigate2 = findViewById(R.id.btn_back);
+        buttonNavigate2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CommunityActivity.this, Activityhome.class);
+                startActivity(intent);
             }
         });
     }

@@ -29,39 +29,44 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
 
     <TextView
         android:id="@+id/welcome_text"
-        android:layout_width="388dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="362dp"
+        android:layout_height="95dp"
         android:fontFamily="@font/font"
         android:text="Welcome to ZeroHunger Food Services"
         android:textColor="#000000"
         android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title" />
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.067" />
 
     <TextView
         android:id="@+id/subtitle"
-        android:layout_width="353dp"
-        android:layout_height="64dp"
-        android:fontFamily="@font/font"
+        android:layout_width="392dp"
+        android:layout_height="63dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/font"
         android:gravity="center"
         android:text="@string/subIntro5"
         android:textColor="#6D6D6D"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_text" />
+        app:layout_constraintTop_toBottomOf="@id/welcome_text"
+        app:layout_constraintVertical_bias="0.031" />
 
     <TextView
         android:id="@+id/textView2"
@@ -74,12 +79,12 @@
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.404" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="382dp"
-        android:layout_height="57dp"
+        android:layout_width="372dp"
+        android:layout_height="59dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your email address"
@@ -88,10 +93,11 @@
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.459" />
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -102,9 +108,8 @@
         app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.349"
+        app:layout_constraintVertical_bias="0.459"
         app:srcCompat="@drawable/doneo" />
-
 
     <TextView
         android:id="@+id/textView3"
@@ -117,12 +122,12 @@
         app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <EditText
         android:id="@+id/editTextpassword"
-        android:layout_width="382dp"
-        android:layout_height="57dp"
+        android:layout_width="380dp"
+        android:layout_height="64dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your Password"
@@ -131,10 +136,11 @@
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.58" />
+
 
     <ImageView
         android:id="@+id/imageView3"
@@ -142,24 +148,25 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44"
+        app:layout_constraintVertical_bias="0.574"
         app:srcCompat="@drawable/doneo" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
         android:text="Forget Password?"
         android:textSize="16dp"
-        android:fontFamily="@font/font"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
 
     <TextView
         android:id="@+id/textView8"
@@ -170,15 +177,14 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.802" />
 
     <Button
         android:id="@+id/btn_strt"
-        android:layout_width="375dp"
-        android:layout_height="60dp"
+        android:layout_width="361dp"
+        android:layout_height="63dp"
         android:backgroundTint="#2085D7"
         android:fontFamily="@font/font"
         android:gravity="center"
@@ -189,10 +195,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <TextView
         android:id="@+id/textView5"
@@ -203,10 +209,10 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.778" />
 
     <TextView
         android:id="@+id/textView6"
@@ -218,33 +224,34 @@
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
-
+        app:layout_constraintVertical_bias="0.778" />
 
     <LinearLayout
-        android:layout_width="439dp"
-        android:layout_height="173dp"
+        android:id="@+id/linearLayout3"
+        android:layout_width="378dp"
+        android:layout_height="189dp"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829">
+        app:layout_constraintVertical_bias="0.996">
 
 
         <Button
             android:id="@+id/btnFacebook"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/btn_facebook"
             android:drawableLeft="@drawable/facebook"
             android:drawablePadding="15dp"
-            android:layout_marginBottom="15dp"
             android:gravity="center"
             android:paddingStart="20dp"
             android:text="CONNECT WITH FACEBOOK"

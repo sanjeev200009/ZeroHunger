@@ -1,6 +1,9 @@
 package com.example.zerohunger;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,10 @@ public class settingActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ImageView signUpTextView = findViewById(R.id.imageView9);
+        signUpTextView.setOnClickListener(view -> {
+            startActivity(new Intent(settingActivity.this, userprofileActivity.class));
+        });
+
     }
 }
