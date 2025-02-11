@@ -38,7 +38,7 @@
         android:id="@+id/welcome_text"
         android:layout_width="378dp"
         android:layout_height="48dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/font"
         android:text="Create Account"
         android:textColor="#000000"
@@ -50,18 +50,20 @@
 
     <TextView
         android:id="@+id/subtitle"
-        android:layout_width="353dp"
-        android:layout_height="64dp"
+        android:layout_width="373dp"
+        android:layout_height="51dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/font"
         android:gravity="center"
         android:text="@string/subIntro8"
         android:textColor="#6D6D6D"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_text" />
+        app:layout_constraintTop_toBottomOf="@id/welcome_text"
+        app:layout_constraintVertical_bias="0.008" />
 
     <TextView
         android:id="@+id/textView2"
@@ -79,7 +81,7 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your full name"
@@ -135,7 +137,7 @@
     <EditText
         android:id="@+id/editTextpassword"
         android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your Email Address"
@@ -152,7 +154,7 @@
     <EditText
         android:id="@+id/editTextpassword2"
         android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter your Password"
@@ -194,7 +196,7 @@
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintVertical_bias="0.723" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -211,7 +213,7 @@
     <Spinner
         android:id="@+id/roleSpinner"
         android:layout_width="381dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:spinnerMode="dropdown"
@@ -240,7 +242,7 @@
         app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
+        app:layout_constraintVertical_bias="0.662" />
 
     <TextView
         android:id="@+id/terms"
@@ -254,7 +256,7 @@
         app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintVertical_bias="0.775" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -265,10 +267,10 @@
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929">
+        app:layout_constraintVertical_bias="0.98">
 
         <Button
             android:id="@+id/btnFacebook"

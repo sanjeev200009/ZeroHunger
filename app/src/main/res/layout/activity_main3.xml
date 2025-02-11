@@ -12,14 +12,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="291dp"
-        android:layout_height="440dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginBottom="344dp"
+        android:layout_width="277dp"
+        android:layout_height="394dp"
         android:src="@drawable/illustrationsnew"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
 
     <TextView
         android:id="@+id/welcomeText"
@@ -39,11 +40,10 @@
         app:layout_constraintVertical_bias="0.636" />
 
 
-
     <TextView
         android:id="@+id/subIntro"
-        android:layout_width="433dp"
-        android:layout_height="110dp"
+        android:layout_width="396dp"
+        android:layout_height="118dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/font"
         android:text="@string/subIntro3"
@@ -56,9 +56,9 @@
 
     <Button
         android:id="@+id/btn_strt"
-        android:layout_width="375dp"
+        android:layout_width="337dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="36dp"
         android:backgroundTint="#2085D7"
         android:fontFamily="@font/font"
         android:gravity="center"
@@ -68,6 +68,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subIntro" />
 

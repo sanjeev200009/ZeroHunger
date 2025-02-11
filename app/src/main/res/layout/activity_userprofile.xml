@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".userprofileActivity">
@@ -11,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#f5f5f5">
+
+
 
         <ScrollView
             android:layout_width="match_parent"
@@ -43,7 +46,41 @@
                             android:background="@drawable/top_background"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent" >
+
+                            <LinearLayout
+                                android:layout_width="383dp"
+                                android:layout_height="38dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="10dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.507"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+
+                                <ImageView
+                                    android:id="@+id/back"
+                                    android:layout_width="22dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/back" />
+
+                                <TextView
+                                    android:id="@+id/textView7"
+                                    android:layout_width="268dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/font"
+                                    android:gravity="center"
+                                    android:text="User Profile"
+                                    android:textAllCaps="true"
+                                    android:textSize="16sp" />
+
+
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <ImageView
                             android:id="@+id/imageView"
@@ -416,7 +453,7 @@
                             android:layout_marginTop="27dp"
                             android:layout_marginEnd="163dp"
                             android:layout_marginBottom="19dp"
-                            android:background="@drawable/button_background"
+                            android:backgroundTint="@color/blue"
                             android:fontFamily="@font/font2"
                             android:text="@string/edit_details"
                             android:textColor="#FFFFFF"

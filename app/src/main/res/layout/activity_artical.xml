@@ -17,27 +17,30 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="47dp"
+            android:layout_height="75dp"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="10dp">
 
 
             <ImageView
-                android:layout_width="27dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:id="@+id/back"
+                android:layout_width="31dp"
+                android:layout_height="24dp"
+
                 android:src="@drawable/back" />
+
+
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="wrap_content"
+                android:layout_width="305dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/font"
+                android:gravity="center"
                 android:text="agriculture Artical"
                 android:textAllCaps="true"
                 android:textSize="16sp" />
-
 
             <View
                 android:layout_width="0dp"

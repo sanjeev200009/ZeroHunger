@@ -35,52 +35,56 @@
 
     <TextView
         android:id="@+id/welcome_text"
-        android:layout_width="378dp"
-        android:layout_height="48dp"
+        android:layout_width="356dp"
+        android:layout_height="51dp"
         android:layout_marginTop="44dp"
         android:fontFamily="@font/font"
         android:text="Find restaurants near you "
         android:textColor="#000000"
         android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
 
     <TextView
         android:id="@+id/subtitle"
-        android:layout_width="353dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="365dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/font"
         android:gravity="center"
         android:text="@string/subIntro10"
         android:textColor="#6D6D6D"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_text" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
 
     <Button
         android:id="@+id/btnForgot"
-        android:layout_width="407dp"
-        android:layout_height="55dp"
+        android:layout_width="344dp"
+        android:layout_height="68dp"
         android:background="@drawable/button_location"
         android:drawablePadding="10dp"
+        android:fontFamily="@font/font"
         android:gravity="center"
         android:paddingStart="20dp"
         android:text="@string/subIntro11"
-        android:fontFamily="@font/font"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -91,13 +95,13 @@
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
+        app:layout_constraintVertical_bias="0.406"
         app:srcCompat="@drawable/location" />
 
     <EditText
         android:id="@+id/editTextpassword"
-        android:layout_width="418dp"
-        android:layout_height="58dp"
+        android:layout_width="344dp"
+        android:layout_height="68dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
         android:hint="Enter a new address"
@@ -107,10 +111,10 @@
         android:textColorHint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintHorizontal_bias="0.605"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.523" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -121,7 +125,7 @@
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446"
+        app:layout_constraintVertical_bias="0.523"
         app:srcCompat="@drawable/marker" />
 
 

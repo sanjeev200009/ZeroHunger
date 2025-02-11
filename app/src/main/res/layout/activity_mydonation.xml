@@ -29,6 +29,7 @@
 
 
                 <ImageView
+                    android:id="@+id/back"
                     android:layout_width="27dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

@@ -1,5 +1,6 @@
 package com.example.zerohunger;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -53,6 +54,16 @@ public class signupActivity extends AppCompatActivity {
             }
         });
 
+        TextView sub = findViewById(R.id.subtitle);
+        sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(signupActivity.this, signinActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 
@@ -78,8 +89,6 @@ public class signupActivity extends AppCompatActivity {
 
         signupButton.setOnClickListener(view -> registerUser());
     }
-
-
 
     private void registerUser() {
         String name = fullName.getText().toString().trim();
@@ -109,8 +118,29 @@ public class signupActivity extends AppCompatActivity {
             return;
         }
 
-        Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(signupActivity.this, signinActivity.class));
-        finish();
+        // Show success dialog instead of Toast
+        showSuccessDialog();
     }
+
+    // Success Dialog
+    private void showSuccessDialog() {
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.dialog_success);
+        dialog.setCancelable(false);
+
+        TextView successText = dialog.findViewById(R.id.success_text);
+        Button btnDone = dialog.findViewById(R.id.btn_done);
+
+        successText.setText("Your details have been submitted successfully!");
+
+        btnDone.setOnClickListener(v -> {
+            dialog.dismiss();
+            // Navigate to Sign-in Activity after closing dialog
+            startActivity(new Intent(signupActivity.this, signinActivity.class));
+            finish();
+        });
+
+        dialog.show();
+    }
+
 }

@@ -10,22 +10,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MydonationActivity extends AppCompatActivity {
+public class donrequestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_mydonation);
+        setContentView(R.layout.activity_donrequest);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        ImageView signUpTextView = findViewById(R.id.back);
+        ImageView signUpTextView = findViewById(R.id.imageView12);
         signUpTextView.setOnClickListener(view -> {
-            startActivity(new Intent(MydonationActivity.this, Activityhome.class));
+            startActivity(new Intent(donrequestActivity.this, Activityhome.class));
         });
-
     }
 }
