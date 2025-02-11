@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -41,6 +42,16 @@ public class AgriTipsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AgriTipsActivity.this, Activityhome.class);
+                startActivity(intent);
+            }
+        });
+
+
+        LinearLayout buttonNavigate3 = findViewById(R.id.tip);
+        buttonNavigate3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AgriTipsActivity.this, TipsActivity.class);
                 startActivity(intent);
             }
         });

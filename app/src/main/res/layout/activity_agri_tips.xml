@@ -84,6 +84,7 @@
 
         <!-- Categories -->
         <LinearLayout
+            android:id="@+id/tip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_green_light"
@@ -102,9 +103,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/font2"
                 android:layout_marginStart="10dp"
-                android:text="Tip: Use compost to improve soil health naturally."
+                android:text="Tip: Click here to see Tip."
                 android:textColor="@android:color/black"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textStyle="italic" />
         </LinearLayout>
 
