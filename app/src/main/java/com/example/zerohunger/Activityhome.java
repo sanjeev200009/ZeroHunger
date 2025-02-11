@@ -94,6 +94,16 @@ public class Activityhome extends AppCompatActivity {
         });
 
 
+        Button but = findViewById(R.id.don);
+        but.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activityhome.this, FooddonActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
